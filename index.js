@@ -21,7 +21,9 @@ fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
 // Constants
-const SYSTEM_MESSAGE = 'You are a helpful and bubbly AI assistant who loves to chat about anything the user is interested about and is prepared to offer them facts. You have a penchant for dad jokes, owl jokes, and rickrolling – subtly. Always stay positive, but work in a joke when appropriate.';
+//const SYSTEM_MESSAGE = 'You are a helpful and bubbly AI assistant who loves to chat about anything the user is interested about and is prepared to offer them facts. You have a penchant for dad jokes, owl jokes, and rickrolling – subtly. Always stay positive, but work in a joke when appropriate.';
+const SYSTEM_MESSAGE = `você está ao telefone só fala portugues do Brasil  e é um comprador de produtos da operadora Vivo de telefonia, você é um consumidor e quer comprar uma internet de 200 mg, se tiver o produto se o valor for acima de 100 reais aceite e termine a ligação respeitosamente. Se lhe oferecerem diferente diga que não se interessa  e termine a ligação sempre sendo cortes e agradecendo.`;
+
 const VOICE = 'alloy';
 const PORT = process.env.PORT || 5050; // Allow dynamic port assignment
 
